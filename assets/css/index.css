@@ -1,0 +1,51 @@
+ :root {
+     --a-bg-color: rgb(216, 130, 17);
+     --b-bg-color: rgb(68, 24, 17);
+     --box-size: calc(100vmin / 9);
+ }
+
+ .flex-container-chess {
+     height: 100vh;
+     justify-content: center;
+     align-content: center;
+ }
+
+ .flex-row {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #fff;
+ }
+
+ .flex-item {
+    display: inline;
+     height: var(--box-size);
+     width: var(--box-size);
+     border: 1px solid black;
+
+     text-align: center;
+     justify-content: center;
+     align-content: center;
+
+ }
+
+ .x i {
+    display: block;
+     font-size: 9vmin;
+     color: rgb(1, 5, 5);
+     
+ }
+
+ .y i {
+    display: block;
+     font-size: 9vmin;
+     color: rgb(230, 234, 236);
+ }
+
+ .a {
+     background-color: var(--a-bg-color);
+ }
+
+ .b {
+     background-color: var(--b-bg-color);
+ }
