@@ -18,27 +18,27 @@
  }
 
  .flex-item {
-    display: inline;
      height: var(--box-size);
      width: var(--box-size);
      border: 1px solid black;
 
+    display: flex;
      text-align: center;
-     justify-content: center;
-     align-content: center;
+     /* justify-content: center;
+     align-content: center; */
+ }
 
+ .x,
+ .y {
+     display: block;
+     font-size: 8vmin;
  }
 
  .x i {
-    display: block;
-     font-size: 9vmin;
      color: rgb(1, 5, 5);
-     
  }
 
  .y i {
-    display: block;
-     font-size: 9vmin;
      color: rgb(230, 234, 236);
  }
 
